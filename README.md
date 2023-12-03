@@ -23,7 +23,7 @@ We welcome contributions to make TradeTreasure even better! If you have suggesti
 
 # License
 
-TradeTreasure is licensed under the [MIT License](LICENSE).
+TradeTreasure is licensed under the [MIT License](https://github.com/TeamDevSquare/TradeTreasure/blob/main/LICENCE).
 
 # Support
 
