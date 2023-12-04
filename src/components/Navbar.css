@@ -5,6 +5,7 @@ header {
 	height: 80px;
 	padding: 0 2rem;
 	background-color: rgb(226, 226, 226);
+	border-bottom: 3px solid rgb(44,44,44);
 }
 
 nav a {
@@ -54,6 +55,7 @@ nav {
 		gap: 1.5rem;
 		background-color: rgb(226, 226, 226);
 		transition: 1s;
+		border-bottom: 3px solid rgb(44,44,44);
 	}
 
 	header .responsive_nav {

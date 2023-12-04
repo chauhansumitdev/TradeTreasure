@@ -18,6 +18,7 @@ function Navbar() {
 				<a href="/#">Home</a>
 				<a href="/#">Search</a>
 				<a href="/#">Sell</a>
+				<a href="#">Reach Us</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
