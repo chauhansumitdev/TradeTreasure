@@ -11,10 +11,11 @@ nav a {
 	margin: 0 2rem;
     padding: 10px 0;
 	text-decoration: none;
+    transition:color 0.3s ease;
 }
 
 nav a:hover {
-	border-bottom: 3px solid rgb(0, 17, 255);
+	color: rgb(104, 104, 104);
 }
 
 header .nav-btn {
