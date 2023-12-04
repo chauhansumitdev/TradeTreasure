@@ -15,3 +15,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.buffer{
+  height: 80px;
+  width: 100%;
+}

@@ -21,10 +21,10 @@ const Footer = () => {
         <div className="footer-section">
             <h4>Follow Us</h4>
             <div className="social-icons">
-                <a href="/#" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-                <a href="/#" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-                <a href="/#" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-                <a href="/#" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                <a href="/#" rel="noopener noreferrer"><FaFacebook /></a>
+                <a href="/#" rel="noopener noreferrer"><FaTwitter /></a>
+                <a href="/#" rel="noopener noreferrer"><FaInstagram /></a>
+                <a href="/#" rel="noopener noreferrer"><FaGithub /></a>
             </div>
         </div>
 
