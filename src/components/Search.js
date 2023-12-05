@@ -1,6 +1,11 @@
 const Search = () => {
     return (
-        <div>Search</div>
+        <div>
+            <div className="buffer"></div>
+            <div>
+                /search
+            </div>
+        </div>
     );
 }
  

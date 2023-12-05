@@ -1,6 +1,11 @@
 const Sell = () => {
     return (
-        <div>Sell</div>
+        <div>
+            <div className="buffer"></div>
+            <div>
+                /sell
+            </div>
+        </div>
     );
 }
  

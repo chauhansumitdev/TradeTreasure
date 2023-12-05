@@ -1,6 +1,11 @@
 const Reachus = () => {
     return (
-        <div>ReachUs</div>
+        <div>
+            <div className="buffer"></div>
+            <div>
+                /reachus
+            </div>
+        </div>
     );
 }
  
