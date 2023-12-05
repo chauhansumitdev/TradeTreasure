@@ -23,10 +23,10 @@ function Navbar() {
 			<header>
 				<h3>TradeTreasure</h3>
 				<nav ref={navRef}>
-					<Link to="/">Home</Link>
-					<Link to="/search">Search</Link>
-					<Link to="/sell">Sell</Link>
-					<Link to="/reach-us">Reach Us</Link>
+					<Link to="/" onClick={showNavbar}>Home</Link>
+					<Link to="/search" onClick={showNavbar}>Search</Link>
+					<Link to="/sell" onClick={showNavbar}>Sell</Link>
+					<Link to="/reach-us" onClick={showNavbar}>Reach Us</Link>
 					<button
 						className="nav-btn nav-close-btn"
 						onClick={showNavbar}>
