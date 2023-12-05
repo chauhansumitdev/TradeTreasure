@@ -56,7 +56,7 @@ nav {
 		justify-content: center;
 		gap: 1.5rem;
 		background-color: rgb(226, 226, 226);
-		transition: 0.5s;
+		transition: 0.3s;
 		border-bottom: 3px solid rgb(44,44,44);
 	}
 
