@@ -1,12 +1,16 @@
 import './ReachUs.css';
 import React, { useState } from 'react';
 import { TbMessage2Check } from "react-icons/tb";
+import { useNavigate } from 'react-router-dom';
+
 const ReachUs = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: '',
   });
+  
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -18,8 +22,9 @@ const ReachUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // db.connect <<-pending err
+    alert("Thankyou!, We will reach out to you soon.");
     console.log('Form submitted:', formData);
+    navigate('/');
   };
 
   return (
