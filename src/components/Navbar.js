@@ -8,7 +8,6 @@ import Sell from './Sell';
 import ReachUs from './ReachUs';
 import Search from './Search';
 
-
 function Navbar() {
 	const navRef = useRef();
 
@@ -27,6 +26,8 @@ function Navbar() {
 					<Link to="/search" onClick={showNavbar}>Search</Link>
 					<Link to="/sell" onClick={showNavbar}>Sell</Link>
 					<Link to="/reach-us" onClick={showNavbar}>Reach Us</Link>
+					<Link to="/" onClick={showNavbar}>Login</Link>
+					<Link to="/" onClick={showNavbar}>Signup</Link>
 					<button
 						className="nav-btn nav-close-btn"
 						onClick={showNavbar}>
@@ -45,6 +46,8 @@ function Navbar() {
 				<Route path="/search" element={<Search />} />
 				<Route path="/sell" element={<Sell />} />
 				<Route path="/reach-us" element={<ReachUs />} />
+				<Route path="/" element={<Home />} />
+				<Route path="/" element={<Home />} />
 			</Routes>
 		</Router>
 	);
