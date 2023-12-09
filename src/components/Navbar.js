@@ -9,6 +9,7 @@ import ReachUs from './ReachUs';
 import Search from './Search';
 import Login from "./Login";
 import Signup from "./Signup";
+import Logout from "./Logout";
 
 function Navbar() {
 	const navRef = useRef();
@@ -29,6 +30,7 @@ function Navbar() {
 					<Link to="/sell" onClick={showNavbar}>Sell</Link>
 					<Link to="/reach-us" onClick={showNavbar}>Reach Us</Link>
 					<Link to="/login" onClick={showNavbar}>Login</Link>
+					<Link to="/logout" onClick={showNavbar}>Logout</Link>
 					<Link to="/signup" onClick={showNavbar}>Signup</Link>
 					<button
 						className="nav-btn nav-close-btn"
@@ -50,6 +52,8 @@ function Navbar() {
 				<Route path="/reach-us" element={<ReachUs />} />
 				<Route path="/login" element={<Login />} />
 				<Route path="/signup" element={<Signup />} />
+				<Route path="/logout" element={<Logout />} />
+
 			</Routes>
 		</Router>
 	);
