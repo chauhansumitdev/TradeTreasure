@@ -1,4 +1,4 @@
-![TradeTreasure](https://github.com/TeamDevSquare/TradeTreasure/assets/103536827/7e274a33-3650-4d11-a1d7-3789f21aba83)
+![TradeTreasure](https://github.com/TeamDevSquare/TradeTreasure/assets/103536827/91f0a9d3-cd28-4983-a21d-fc4d51d71a31)
 
 # TradeTreasure
 
