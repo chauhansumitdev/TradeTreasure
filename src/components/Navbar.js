@@ -7,9 +7,9 @@ import Home from './Home';
 import Sell from './Sell';
 import ReachUs from './ReachUs';
 import Search from './Search';
-import Login from "./Login";
-import Signup from "./Signup";
-import Logout from "./Logout";
+import LoginSignup from "./LoginSignup";
+import Login from './LoginSignup/Login';
+import Signup from './LoginSignup/Signup';
 
 function Navbar() {
 	const navRef = useRef();
@@ -29,9 +29,7 @@ function Navbar() {
 					<Link to="/search" onClick={showNavbar}>Search</Link>
 					<Link to="/sell" onClick={showNavbar}>Sell</Link>
 					<Link to="/reach-us" onClick={showNavbar}>Reach Us</Link>
-					<Link to="/login" onClick={showNavbar}>Login</Link>
-					<Link to="/logout" onClick={showNavbar}>Logout</Link>
-					<Link to="/signup" onClick={showNavbar}>Signup</Link>
+					<Link to="/login-signup" onClick={showNavbar}>Login/Signup</Link>
 					<button
 						className="nav-btn nav-close-btn"
 						onClick={showNavbar}>
@@ -50,10 +48,9 @@ function Navbar() {
 				<Route path="/search" element={<Search />} />
 				<Route path="/sell" element={<Sell />} />
 				<Route path="/reach-us" element={<ReachUs />} />
-				<Route path="/login" element={<Login />} />
-				<Route path="/signup" element={<Signup />} />
-				<Route path="/logout" element={<Logout />} />
-
+				<Route path="/login-signup" element={<LoginSignup />} />
+        		<Route path="/login" element={<Login />} />
+       		 	<Route path="/signup" element={<Signup />} />
 			</Routes>
 		</Router>
 	);

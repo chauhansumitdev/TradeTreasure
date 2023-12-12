@@ -1,10 +1,10 @@
-const Signup = () => {
+const Login = () => {
     return (
         <div>
             <div className="buffer"></div>
-            this is the signup page.
+            this is the login page
         </div>
     );
 }
  
-export default Signup;
+export default Login;
