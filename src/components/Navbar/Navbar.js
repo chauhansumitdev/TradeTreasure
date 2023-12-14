@@ -5,11 +5,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Home from './Home';
 import Sell from './Sell';
-import ReachUs from './ReachUs';
+import ReachUs from '../ReachUs/ReachUs';
 import Search from './Search';
 import LoginSignup from "./LoginSignup";
-import Login from './LoginSignup/Login';
-import Signup from './LoginSignup/Signup';
+import Login from '../LoginSignup/Login';
+import Signup from '../LoginSignup/Signup';
 
 function Navbar() {
 	const navRef = useRef();
