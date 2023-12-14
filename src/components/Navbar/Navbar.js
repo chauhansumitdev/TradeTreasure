@@ -10,6 +10,7 @@ import Search from '../Search/Search';
 import LoginSignup from "../LoginSignup/LoginSignup";
 import Login from '../LoginSignup/Login';
 import Signup from '../LoginSignup/Signup';
+import Thankyou from '../ReachUs/Thankyou';
 
 function Navbar() {
 	const navRef = useRef();
@@ -51,6 +52,7 @@ function Navbar() {
 				<Route path="/login-signup" element={<LoginSignup />} />
         		<Route path="/login" element={<Login />} />
        		 	<Route path="/signup" element={<Signup />} />
+				<Route path="/thankyou" element={<Thankyou/>}/>
 			</Routes>
 		</Router>
 	);

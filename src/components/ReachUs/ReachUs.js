@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { TbMessage2Check } from "react-icons/tb";
 import { useNavigate } from 'react-router-dom';
 
+
 const ReachUs = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -10,8 +11,6 @@ const ReachUs = () => {
     message: '',
   });
   
-  const navigate = useNavigate();
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -20,12 +19,13 @@ const ReachUs = () => {
     });
   };
 
+  const navigate = useNavigate();
+
   const handleSubmit = (e) => {
-    e.preventDefault();
     //TODO implement the thankyou page here!
-    alert("Thankyou!, We will reach out to you soon.");
+    navigate('/thankyou');
+
     console.log('Form submitted:', formData);
-    navigate('/');
   };
 
   return (
