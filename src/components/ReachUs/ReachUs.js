@@ -22,6 +22,7 @@ const ReachUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    //TODO implement the thankyou page here!
     alert("Thankyou!, We will reach out to you soon.");
     console.log('Form submitted:', formData);
     navigate('/');
