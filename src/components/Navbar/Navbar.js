@@ -3,11 +3,11 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import './Navbar.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import Home from './Home';
-import Sell from './Sell';
+import Home from '../Home/Home';
+import Sell from '../Sell/Sell';
 import ReachUs from '../ReachUs/ReachUs';
-import Search from './Search';
-import LoginSignup from "./LoginSignup";
+import Search from '../Search/Search';
+import LoginSignup from "../LoginSignup/LoginSignup";
 import Login from '../LoginSignup/Login';
 import Signup from '../LoginSignup/Signup';
 
