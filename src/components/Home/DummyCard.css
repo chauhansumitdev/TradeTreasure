@@ -40,10 +40,10 @@
 
 .product-button {
     margin: 4px;
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: #d0ffd1;
+    color: rgb(44,44,44);
     padding: 8px 10px;
-    border: none;
+    border: 2px solid rgb(44,44,44);
     border-radius: 4px;
     cursor: pointer;
     font-size: 1rem;
@@ -51,7 +51,7 @@
 }
 
 .resale{
-    border-bottom: 2px solid rgb(44,44,44);
+    border: none !important;
     color: rgb(44,44,44);
     background-color: transparent !important;
 

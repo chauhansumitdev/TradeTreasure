@@ -89,7 +89,7 @@ const ReachUs = () => {
               required
             ></textarea>
           </label>
-          <button type="submit">Submit</button>
+          <button type="submit"><strong>Submit</strong></button>
         </form>
       </div>
       <div className="buffer"></div>

@@ -42,9 +42,9 @@ textarea {
 
 button {
   padding: 10px;
-  background-color: #063f7d;
-  color: rgb(226, 226, 226);
-  border: none;
+  background-color: #bdddff;
+  color: rgb(44,44,44);
+  border: 2px solid rgb(44, 44, 44);
   border-radius: 4px;
   cursor: pointer;
 }
