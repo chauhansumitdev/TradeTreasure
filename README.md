@@ -1,3 +1,5 @@
+![TradeTreasure](https://github.com/TeamDevSquare/TradeTreasure/assets/103536827/91f0a9d3-cd28-4983-a21d-fc4d51d71a31)
+
 # TradeTreasure
 
 Welcome to TradeTreasure, your go-to platform for buying and selling a wide variety of items online. Whether you're looking to declutter your home, find unique treasures, or simply connect with a community of buyers and sellers, TradeTreasure is the place to be.
