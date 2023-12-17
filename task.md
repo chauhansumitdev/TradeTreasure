@@ -1,8 +1,10 @@
 # Progress 🚧
 
-- Sell Page -> 🟢 Done
+- Sell Page 🟢 Done
 
 - update the seller page and move it to the home page.
-the rendered products need to be passed as prop to this search comp. -> 🟡 Working...
+the rendered products need to be passed as prop to this search comp. 🟡 Working...
 
-- backend - 🔴 Pending!
+- fix the ui button on /sell 🟢 Done
+
+- backend 🔴 Pending!

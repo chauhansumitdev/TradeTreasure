@@ -81,7 +81,7 @@ const Sell = () => {
         </label>
         <br />
         <button type="button" onClick={handleSell} className='fullwidthbutton'>
-          Sell Product
+          <strong>Sell Product</strong>
         </button>
       </form>
     </div>
