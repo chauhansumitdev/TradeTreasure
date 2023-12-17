@@ -21,8 +21,7 @@ const ReachUs = () => {
 
   const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
-    //TODO implement the thankyou page here!
+  const handleSubmit = () => {
     navigate('/thankyou');
 
     console.log('Form submitted:', formData);

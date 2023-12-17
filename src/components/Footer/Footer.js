@@ -3,7 +3,7 @@ import './Footer.css';
 import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
-    const date = '14 December 2023';
+    const date = '18 December 2023';
 
   return (
     <footer className="footer">

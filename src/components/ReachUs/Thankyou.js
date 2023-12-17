@@ -21,7 +21,7 @@ const Thankyou = () => {
   return (
     <div>
       <div className="message">
-        <h3>Thank you for submitting the form!</h3>
+        <h3>We will get back to you super soon!</h3>
         <p>Redirecting to the home page in <strong>{countdown}</strong> seconds...</p>
       </div>
     </div>
