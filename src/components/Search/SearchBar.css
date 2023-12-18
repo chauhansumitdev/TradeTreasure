@@ -1,0 +1,26 @@
+.textincss{
+    margin-top: 10px;
+    width: 800px;
+    border: 3px solid rgb(44, 44, 44);
+    border-radius: 10px;
+}
+
+.searchcss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.noresults{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+@media (max-width: 730px) {
+    .textincss{
+        width: 350px;
+    }
+  }

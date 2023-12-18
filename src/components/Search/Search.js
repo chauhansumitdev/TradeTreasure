@@ -1,9 +1,11 @@
+import SearchBar from "./SearchBar";
+
 const Search = () => {
     return (
         <div>
             <div className="buffer"></div>
             <div>
-                /search
+                <SearchBar></SearchBar>
             </div>
         </div>
     );
