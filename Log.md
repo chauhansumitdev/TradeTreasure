@@ -1,4 +1,4 @@
-# Progress 🚧 + Error Log
+# Project Log
 
 - Sell Page 🟢 Done
 
@@ -8,3 +8,5 @@ the rendered products need to be passed as prop to this search comp. 🟢 Done
 - fix the ui button on /sell 🟢 Done
 
 - fix the position of the search bar - 🔴
+
+- backend-
